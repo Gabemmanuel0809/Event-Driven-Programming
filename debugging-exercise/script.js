@@ -26,7 +26,6 @@ function showTypedText() {
 }
 
 function changeBackground() {
-	// same goes here, no error message but lightblue should be inside a double quotes
     document.body.style.backgroundColor = "lightblue";
     console.log("Background color changed.");
 }
@@ -41,7 +40,6 @@ function resetPage() {
 }
 
 greetButton.addEventListener("click", displayGreeting);
-// Theres no error message but it should be click 
 colorButton.addEventListener("click", changeBackground); 
 resetButton.addEventListener("click", resetPage);
 nameInput.addEventListener("change", showTypedText);
