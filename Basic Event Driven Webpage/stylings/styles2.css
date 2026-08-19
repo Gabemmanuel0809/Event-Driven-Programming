@@ -1,0 +1,40 @@
+body {
+  background-color:skyblue;
+}
+
+#Mtitle {
+	position:absolute;
+	left:550px;
+	font-size:35px;
+	font-family:"MS Sans Serif";
+}
+
+form {
+	position:absolute;
+	top:100px;
+	left:430px;
+}
+
+input {
+	width:400px;
+	height:30px;
+}
+
+button {
+	height:35px;
+}
+
+#whitebody {
+	display:none;
+	position:absolute;
+	left:440px;
+	top:150px;
+	background-color:white;
+	height:auto;
+	width:auto;
+}
+
+#i, #txtres, #pdesc {
+	display:none;
+}
+
