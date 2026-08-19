@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Event-Driven Webpage</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="pageContainer">
+        <header>
+            <p class="school-name">UNIVERSIDAD DE DAGUPAN</p>
+            <p class="department">SCHOOL OF INFORMATION TECHNOLOGY EDUCATION</p>
+            <p class="subject">EVENT-DRIVEN PROGRAMMING</p>
+
+            <h1 id="mainHeading">Semester: Prelims 1st Semester of Year: 2026-2027</h1>
+        </header>
+        <main>
+            <section class="student-info">
+                <p>Name: Gabriel Emmanuel P. Domondon</p>
+                <p>Year, Course, and Block: 31-ITE-06</p>
+                <p>Subject: Event-Driven Programming</p>
+                <p>Date: August 19, 2026</p>
+            </section>
+
+            <section class="event-panel">
+                <h2>Event-Driven Webpage</h2>
+                <label for="nameInput">Enter your name:</label>
+                <input type="text" id="nameInput" placeholder="Type your name here">
+
+                <div class="button-group">
+				    <br>
+                    <button id="greetingButton">Display Greeting</button>
+                    <button id="backgroundButton">Change Background</button>
+                    <button id="resetButton">Reset</button>
+                </div>
+                <p id="messageArea"></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>ITP10 Laboratory Activity 1 — Basic Event-Driven Programming</p>
+        </footer>
+    </div>
+	<script src="script.js"></script>
+</body>
+</html>
