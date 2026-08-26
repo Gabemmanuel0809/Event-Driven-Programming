@@ -128,7 +128,12 @@ calculate.addEventListener("click", function () {
 		 const pQty = Number(qtyElem.value); 
 		 
 		 if (pName === "") { 
-		    validationMessage.innerHTML = `Error: Product Name for item #${i + 1} cannot be empty.`; return; } if (isNaN(pPrice) || pPrice <= 0) { validationMessage.innerHTML = `Error: Please enter a valid positive price for item #${i + 1}.`; 
+		    validationMessage.innerHTML = `Error: Product Name for item #${i + 1} cannot be empty.`; 
+			return; 
+		 } 
+		  
+		 if (isNaN(pPrice) || pPrice <= 0) { 
+			validationMessage.innerHTML = `Error: Please enter a valid positive price for item #${i + 1}.`; 
 			return; 
 		 } 
 		 
