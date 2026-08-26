@@ -1,4 +1,3 @@
-let button = document.querySelector("#btn");
 let customer = document.querySelector("#customerName");
 let productNumber = document.querySelector("#productCount");
 let delivery = document.querySelector("#deliveryOption");
