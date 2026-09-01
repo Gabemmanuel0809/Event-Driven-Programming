@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Inventory Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Product Inventory Dashboard</h1>
+    <form id="searchForm">
+        <label for="searchInput">Search Product</label>
+        <input type="text" id="searchInput" name="searchInput" placeholder="Enter product name">
+        <label for="categoryFilter">Category</label>
+
+        <select id="categoryFilter" name="categoryFilter">
+            <option value="All">All</option>
+            <option value="Accessories">Accessories</option>
+            <option value="Displays">Displays</option>
+            <option value="Storage">Storage</option>
+            <option value="Components">Components</option>
+        </select>
+        <button type="submit" id="searchBtn">Search</button>
+        <button type="button" id="resetBtn">Reset</button>
+    </form>
+
+    <section id="inventorySummary">
+        <div>
+            <h2>Total Inventory Value</h2>
+            <p id="totalInventoryValue">₱0</p>
+        </div>
+
+        <div>
+            <h2>Low-Stock Products</h2>
+            <p id="lowStockCount">0</p>
+        </div>
+
+        <div>
+            <h2>Out-of-Stock Products</h2>
+            <p id="outOfStockCount">0</p>
+        </div>
+    </section>
+
+    <p id="noResultsMessage" style="display: none;">No products found</p>
+    <section id="productList">
+        
+    </section>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
